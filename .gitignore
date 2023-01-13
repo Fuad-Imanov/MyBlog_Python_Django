@@ -1,0 +1,6 @@
+venv
+MyBlog\__pycache__
+testapp\__pycache__
+users\__pycache__
+blog\__pycache__
+

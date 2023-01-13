@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load menu %}
+{% block title %}
+    Login
+{% endblock %}
+
+{% block content %}
+    {% show_menu %}
+     <form action="" method="post">
+        {% csrf_token %}
+        <div class="container">
+            <div class="row">
+                <div class="col-mg-4">
+                    {{ form.as_p }}
+                    <button class="btn btn-primary" type="submit">Login</button>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+    <br>
+{% endblock %}
